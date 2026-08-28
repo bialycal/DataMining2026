@@ -1,8 +1,8 @@
-#DataMining2026
+# DataMining2026
 
-**Bialy Calderón**
-**bialycm@comunidad.unam.mx**
-**ENES Morelia, UNAM**
+**Bialy Calderón**  
+**bialycm@comunidad.unam.mx**  
+**ENES Morelia, UNAM**  
 
 ## Sobre el proyecto
 

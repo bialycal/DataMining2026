@@ -36,8 +36,8 @@ def detect_outliers(df, method = 'iqr', umbral = 1.5):
 
     elif method == 'zscore':
         for n in num:
-            outliers_arriba = (df2[n] - mean(df2[n])) / sd(df2[n]) > 3
-            outliers_abajo = (df2[n] - mean(df2[n])) / sd(df2[n]) < -3
+            outliers_arriba = (df2[n] - mean(df2[n])) / sd(df2[n]) > umbral
+	    outliers_abajo = (df2[n] - mean(df2[n])) / sd(df2[n]) < -umbral
             df2[n] = outliers_arriba | outliers_abajo
             
     return df2

@@ -1,4 +1,4 @@
-def create_kmeans(data, n_clusters = 8, max_iter = 100, tol = 0.0001, randomstate = None):
+def create_kmeans(data, n_clusters = 9, max_iter = 100, tol = 0.0001, randomstate = None):
     np.random.seed(randomstate)
     data = data.to_numpy()
     centroides = [tuple(X.iloc[np.random.randint(len(X))]) for _ in range(n_clusters)]

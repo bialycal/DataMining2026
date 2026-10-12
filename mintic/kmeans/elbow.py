@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-def elbow(data, min = 2, max = 8, max_iter = 1000, tol = 0.001, randomstate = None):
+def elbow(data, min = 2, max = 9, max_iter = 1000, tol = 0.001, randomstate = None):
     inercias = []
     valores_k = list(range(min, max + 1))
 
